@@ -5,11 +5,11 @@ An agentic system that automatically replicates web application backends by anal
 ## Overview
 
 This agent replicates Asana's backend APIs for **Home, Projects, and Tasks** pages, generating:
-- ✅ FastAPI application with complete CRUD operations
-- ✅ PostgreSQL database schema with Alembic migrations
-- ✅ OpenAPI specification (api.yml)
-- ✅ Exhaustive pytest test suites
-- ✅ Docker setup (Dockerfile + docker-compose.yml)
+-  FastAPI application with complete CRUD operations
+-  PostgreSQL database schema with Alembic migrations
+-  OpenAPI specification (api.yml)
+-  Exhaustive pytest test suites
+-  Docker setup (Dockerfile + docker-compose.yml)
 
 ## Features Replicated
 
@@ -225,11 +225,11 @@ Clooney-Agent/
 ## Test Coverage
 
 The test suite includes:
-- ✅ Basic CRUD operations
-- ✅ Edge cases (empty strings, long inputs, special characters)
-- ✅ 404 error handling
-- ✅ Boolean flag toggling
-- ✅ Relationship testing (tasks in projects/sections)
+-  Basic CRUD operations
+-  Edge cases (empty strings, long inputs, special characters)
+-  404 error handling
+-  Boolean flag toggling
+-  Relationship testing (tasks in projects/sections)
 
 ## Database Schema
 
@@ -265,6 +265,7 @@ Generated `schema.sql` includes:
 This project was documented and managed by Nikita Singhal.
 
 For any queries, feel free to reach out at: nikita9084243020@gmail.com
+
 
 
 
